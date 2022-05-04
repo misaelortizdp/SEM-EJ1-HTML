@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+	font-family: Manrope, sans-serif;
+}
+
+body{
+	width: 144rem;
+	height: 80rem;
+	background-color: hsl(210, 46%, 95%);
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+section{
+	width: 73rem;
+	height: 28rem;
+	display: flex;	
+    background-color: white;
+	border-radius: 1rem;
+}
+
+article p{
+
+	padding: 0rem 4rem;
+}
+
+#block-1{
+    background-image: url('../img/drawers.png');
+	display: flex;
+	width:  28.5rem;
+	height: 28rem;
+    border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+
+
+
+#block-2{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	width: 44.5rem;
+	height: 28rem;
+	padding: 2.2rem 0rem;
+	
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+}
+
+#nav{
+    width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#profile img{
+	width:4rem;
+	height:4rem; 
+}
+
+#photo-profile{
+	border-radius: 2rem;
+}
+
+#firstp{
+	font-size: 2rem;
+    font-weight: 800;
+	color: hsl(217, 19%, 35%);
+}
+
+#secondp{
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: hsl(214, 17%, 51%);
+}
+
+#data{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#name{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: hsl(217, 19%, 35%);
+}
+
+#date{
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: hsl(212, 23%, 69%);
+
+
+}
+
+
+#nav img:hover{
+
+	background-image: url('../img/desktopHover.svg');
+
+}
+
+
+@media  screen and (max-width: 420px){
+
+	body{
+		width: 375px;
+		height: 667px;
+		
+	}
+
+	section{
+		width: 32.7rem;
+		height: 51rem;
+		flex-direction: column;      
+    }
+
+	#block-1{
+		width: 32.7rem;
+		height: 20rem;
+		background-image: url('../img/drawers-mobile.png');
+		border-top-left-radius: 1rem;
+		border-top-right-radius: 1rem;
+		border-bottom-left-radius: 0rem;
+
+	}
+	
+	#block-2{
+        width: 32.7rem;
+		height: 31rem;
+	}
+
+	#firstp{
+		font-size: 1.5rem;
+		font-weight: 900;
+		
+	}
+	
+	#secondp{
+		font-size: 1.2rem;
+		font-weight: 700;
+		
+	}
+
+	}
+
+
+
+	
+	
